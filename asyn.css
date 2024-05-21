@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.cover{
+    width: 15;
+    height: 100vh;
+    background-color: #BAB196;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color:#BAB196;
+    width: 180px;
+    height:36px;
+    border-color: #f5f5f5;
+    border-radius: 44px;
+    border: 2px solid #f5f5f5;
+}
+.search-input{
+    background-color: #BAB196;
+    width: 200px;
+    height: 33px;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
+    border: 1px solid #f5f5f5;
+
+}
+.search-icon{
+    width: 90px;
+    display:flex;
+    color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+}
+.cart i{
+    width:44px;
+    color: #f5f5f5;
+}
+.navbar ul li{
+    /* list-style: none; */
+    display:inline-block;
+    margin-left: 92px;
+}
+.navbar ul li{
+    /* text-decoration: none; */
+    color: #f5f5f5;
+    font-size: 28px;
+}
+/* .line{
+    width:1440.02px;
+    height: 2px;
+    background-color: #f5f5f5;
+    margin-bottom: 400px; 
+}*/
+.shop{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+} 
+.box1{
+    /* border: 2px solid red; */
+    font-family: "Montserrat", sans-serif;
+    color: #f5f5f5;
+    height: 408 px;
+    width: 570px;
+    font-size: 96px;
+    margin: 20px;
+}
+
+img {
+    border-radius: 44px;
+    display: inline;
+  }
+.shop2{
+    display: flex;
+    align-items:self-start;
+    justify-content: space-evenly;
+} 
+ .box2{
+    border: 2px solid red;
+    height: 212.28 px;
+    width: 493.03px;
+    font-size: 56px;
+    margin: 20px;
+}
+.bottom-left {
+    color: #f5f5f5;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+} 
+ .box2{
+    border: 2px solid red;
+    height: 100px;
+    width: 300px;
+}
+.shop3{
+    display: flex;
+    justify-content: space-evenly;
+} 
+ .box3{
+    border: 2px solid red;
+    height: 100px;
+    width: 300px;
+}
